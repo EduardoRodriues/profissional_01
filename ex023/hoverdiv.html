@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover div</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            width: 200px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        div:hover {
+            color: red;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>hover example</h1>
+    <p>passe o mause</p>
+    <div>
+        hereee
+        <p>blink text</p>
+    </div>
+    <p>end</p>
+</body>
+</html>
